@@ -2,7 +2,7 @@ version: '3.5'
 
 services:
   zabbix-db:
-    image: zabbix/zabbix-docker-mysql:latest
+    image: zabbix/zabbix-server-mysql:latest
     container_name: zabbix-db
     environment:
       MYSQL_ROOT_PASSWORD: zabbix_password
